@@ -26,7 +26,6 @@ def isRemovingOne(level):
 
 for level in d2:
   curLevel = list(map(int, level.strip().split())) 
-  #print(isIncrease(curLevel), isDecrease(curLevel), isRemovingOne(curLevel))
   if isRemovingOne(curLevel):
     totalSafeReports += 1
 print(totalSafeReports)
