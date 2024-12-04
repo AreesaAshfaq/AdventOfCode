@@ -1,5 +1,5 @@
 import re
-d3 = open("/2024_Day3_input.txt", "r")
+d3 = open("2024_Day3_input.txt", "r")
 p1 = 0
 for x in d3:
 
